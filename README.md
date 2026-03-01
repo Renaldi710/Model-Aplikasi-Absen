@@ -78,9 +78,9 @@ APK output ada di: `app/build/outputs/apk/`
 
 ```bash
 # Buat file keystore.properties di root project
-KEY_STORE_FILE=perhutani.jks
+KEY_STORE_FILE=bebas.jks
 KEY_STORE_PASSWORD=your_password
-KEY_ALIAS=perhutani
+KEY_ALIAS=ikuti key store
 KEY_PASSWORD=your_key_password
 ```
 

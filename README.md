@@ -35,7 +35,7 @@ Kunjungi halaman [**Releases**](../../releases/latest) untuk download APK versi 
 
 | Versi | Tanggal | Changelog |
 |-------|---------|-----------|
-| [v1.0.0](../../releases/tag/v1.0.0) | 2026-03-01 | Initial release |
+| [v1.0.0](../../releases/tag/dani) | 2026-03-01 | Initial release |
 
 ---
 
@@ -62,8 +62,8 @@ Kunjungi halaman [**Releases**](../../releases/latest) untuk download APK versi 
 
 ```bash
 # Clone repo
-git clone https://github.com/USERNAME/absen-perhutani.git
-cd absen-perhutani
+git clone https://github.com/Renaldi710/Model-Aplikasi-Absen.git
+cd Model-Aplikasi-Absen
 
 # Build debug APK
 ./gradlew assembleDebug

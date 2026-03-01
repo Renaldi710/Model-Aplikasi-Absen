@@ -132,7 +132,7 @@ Distributed under the MIT License. Lihat [`LICENSE`](LICENSE) untuk informasi le
 
 **Renaldi**
 
-- GitHub: [@USERNAME](https://github.com/Renaldi710)
+- GitHub: [@Renaldi710](https://github.com/Renaldi710)
 
 ---
 

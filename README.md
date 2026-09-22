@@ -16,7 +16,7 @@
 ## ✨ Fitur
 
 - 🚀 **Akses Langsung** — Buka sistem DANI Perhutani dengan satu tap
-- 🔒 **Aman** — Menggunakan Chrome asli via Custom Tabs, bukan browser bawaan
+- 🖥️ **Native Full-Screen** — WebView embedded tanpa address bar browser, terasa seperti aplikasi asli
 - 📶 **Deteksi Koneksi** — Notifikasi otomatis jika tidak ada internet
 - 🔄 **Retry Otomatis** — Tombol coba lagi jika koneksi bermasalah
 - 📱 **Mobile Optimized** — Tampilan menyesuaikan layar HP
@@ -45,8 +45,8 @@ Kunjungi halaman [**Releases**](../../releases/latest) untuk download APK versi 
 |----------|--------|
 | Language | Kotlin |
 | Min SDK | API 24 (Android 7.0 Nougat) |
-| Target SDK | API 34 (Android 14) |
-| Browser Engine | Chrome Custom Tabs (`androidx.browser`) |
+| Target SDK | API 36 (Android 16) |
+| Browser Engine | Embedded WebView (`android.webkit.WebView`) |
 | Architecture | Single Activity |
 
 ---
@@ -54,9 +54,9 @@ Kunjungi halaman [**Releases**](../../releases/latest) untuk download APK versi 
 ## 🚀 Build dari Source
 
 ### Prerequisites
-- Android Studio Hedgehog atau lebih baru
-- JDK 17
-- Android SDK API 34
+- Android Studio terbaru (Ladybug atau lebih baru)
+- JDK 21 (via Foojay Toolchain Resolver)
+- Android SDK API 36
 
 ### Langkah Build
 

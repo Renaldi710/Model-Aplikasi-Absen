@@ -5,12 +5,19 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
     <ProgressBar
         android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:progressTint="#2E7D32"
         android:visibility="visible" />
 
     <LinearLayout
@@ -26,16 +33,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="⚠️ Tidak ada koneksi internet"
-            android:textSize="16sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:textColor="#333333"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Periksa koneksi WiFi atau kuota data Anda, lalu tekan tombol di bawah."
+            android:textSize="15sp"
+            android:textColor="#666666"
             android:gravity="center" />
 
         <Button
             android:id="@+id/retryButton"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:minHeight="56dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:text="Coba Lagi"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:backgroundTint="#2E7D32"
             android:textColor="#FFFFFF" />
 
